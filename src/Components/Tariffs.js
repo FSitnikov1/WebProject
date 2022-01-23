@@ -55,6 +55,47 @@ export default function Tariffs() {
             </Modal>
             <h2 id="tariffs">Тарифы</h2>
             <div className="container">
+                <div className="row">
+                    <div className="col-12 col-md-4 order-1 tariff-col">
+                        <div className="tariff-block">
+
+                            <div className="tariff-title">Стартовый</div>
+                            <ul>
+                                <li>Консультации и работы по SEO</li>
+                                <li>Услуги дизайнера</li>
+                                <li>Неиспользованные <br /> оплаченные часы переносятся <br />на следующий месяц</li>
+                                <li>предоплата от 6 000 рублей в <br />месяц</li>
+                            </ul>
+                            <button id="contact-button-1" onClick={handleOpen} className="contact-button form-opener">СВЯЖИТЕСЬ С НАМИ!</button>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-4 order-3 tariff-col">
+                        <div className="tariff-block">
+                            <div className="tariff-title">VIP</div>
+                            <ul>
+                                <li>Консультации и работы по SEO</li>
+                                <li>Услуги дизайнера</li>
+                                <li>Максимальное время реакции <br />- в день обращения</li>
+                                <li>Неиспользованные <br />оплаченные часы не <br />переносятся</li>
+                                <li>Предоплата от 270 000 рублей <br />в месяц</li>
+                            </ul>
+                            <button id="contact-button-2" onClick={handleOpen} className="contact-button form-opener">СВЯЖИТЕСЬ С НАМИ!</button>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-4 order-2 tariff-col default-tariff">
+                        <div className="tariff-block">
+                            <div className="tariff-title">Бизнес</div>
+                            <ul>
+                                <li>Консультации и работы по SEO</li>
+                                <li>Услуги дизайнера</li>
+                                <li>Высокое время реакции - до 2 <br /> рабочих дней</li>
+                                <li>Неиспользованные <br /> оплаченные часы не <br />переносятся</li>
+                                <li>Предоплата от 30 000 рублей в <br />месяц</li>
+                            </ul>
+                            <button id="contact-button-3" onClick={handleOpen} className="contact-button form-opener">СВЯЖИТЕСЬ С НАМИ!</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="tariffs-custom">
                 Вам не подходят наши тарифы? Оставьте заявку и мы <br /> предложим вам индивидуальные условия!<br />
