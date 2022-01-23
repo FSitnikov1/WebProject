@@ -1,3 +1,4 @@
+import '../css/partnership.css'
 import company1 from '../img/big/company-1.png'
 import company2 from '../img/big/company-2.png'
 import company3 from '../img/big/company-3.png'
@@ -75,6 +76,11 @@ export default function Carousel() {
 
   return (
     <section className="partnership">
+      <h2>С нами работают</h2>
+      <div className="partnership-header">
+        Десятки компаний доверяют нам самое ценное, что у них есть в интернете
+        – свои сайты. Мы делаем всё, чтобы наше сотрудничество было долгим.
+      </div>
       <div className="carrousel_wrapper" id="slider-1" style={{ width: "100%" }}>
         <Slider {...settings1}>
           <div className="carrousel_image">
