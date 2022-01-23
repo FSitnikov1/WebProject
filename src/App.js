@@ -7,6 +7,9 @@ import Tariffs from './Components/Tariffs'
 import Pred from './Components/Pred'
 import Cases from './Components/Cases'
 import Team from './Components/Team'
+import Reviews from './Components/Reviews'
+import Partnership from './Components/Partnership'
+import Mainform from './Components/Mainform'
 
 
 function App() {
@@ -21,6 +24,9 @@ function App() {
       <Pred />
       <Cases />
       <Team />
+      <Reviews />
+      <Partnership />
+      <Mainform />
     </>
   )
 }
