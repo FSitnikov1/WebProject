@@ -7,7 +7,7 @@ export default function NavBar() {
         <div className="navbar-absolute">
             <div className="container-md">
                 <nav className="navbar navbar-expand-md">
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse" id="navbarContent">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
                                 <a className="nav-link" href>ТЕХ ПОДДЕРЖКА DRUPAL</a>
@@ -53,7 +53,7 @@ export default function NavBar() {
                     <a className="navbar-brand" href>
                         <img className="nav-logo" src={logo} alt="Лого" />
                     </a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                         <img src={hamb} alt="hamb icon" style={{ width: "100%" }} />
                         <span src={hamb} className="icon-bar" />
                     </button>
