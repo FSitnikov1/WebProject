@@ -26,7 +26,7 @@ const Form = () => {
         localStorage.setItem('комментарий', data.comment);
         let formdata = JSON.stringify(data);
 
-        const response = await fetch('https://api.slapform.com/nUumK9KqP', {
+        const response = await fetch('https://api.slapform.com/nUumK9KqP/', {
             method: "POST",
             body: formdata,
         })
